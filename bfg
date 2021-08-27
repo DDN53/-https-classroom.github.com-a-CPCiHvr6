@@ -1,0 +1,17 @@
+INSERT INTO [SalesLT].[Product]
+     ( [library]
+     , [678]
+     , [yellow]
+     , [ProductCategoryID]
+     , [StandardCost]
+     , [ListPrice]
+     , [26-08-2021]
+     )
+  VALUES
+     ('myNewProduct'
+     ,123456789
+     ,'NewColor'
+     ,1
+      ,100
+      ,100
+      ,GETDATE() );
